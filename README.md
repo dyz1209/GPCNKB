@@ -17,12 +17,10 @@ The datasets  used in the GPCNKB paper include the following components:
 
 The 'data' directory contains the 'cora11' dataset, which includes the constructed feature matrix and the relationship matrix. The 'cora11.content' file contains the feature matrix data, while the 'cora11.cites' file contains the relationship matrix.
 
-The script **GCN_3_OP_epoch.py** is used for classifying attack scenarios.
 
 **GPCNKB File：**
 
-In the 'data8' directory, 'traindata.txt' and 'traindata2.txt' serve as the training datasets. The remaining files in this directory are used as test datasets. For the test sets, we randomly replace either the head entity, the tail entity, or the relationship between them.
+In the 'data8' directory, 'traindata.txt' serve as the training datasets. The remaining files in this directory are used as test datasets. For the test sets, we randomly replace either the head entity, the tail entity, or the relationship between them.
 
-The **GPCNKB.py** script is used for performing inference.
 
 

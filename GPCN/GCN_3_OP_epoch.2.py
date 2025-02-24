@@ -33,7 +33,7 @@ import seaborn as sns
 # device_count = pynvml.nvmlDeviceGetCount()
 
 
-# def load_data(path="../apt+14/100%数据/lei_data雷学姐/", dataset="11"):
+# def load_data(path="../.../100%数据/.../", dataset="11"):
 def load_data(path="data/cora6/", dataset="cora6"):
 
     # def load_data(path="../apt+14/100%数据/", dataset="cve_3关系"):
